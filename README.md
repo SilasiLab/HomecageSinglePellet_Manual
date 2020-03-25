@@ -9,4 +9,4 @@ The gui for labeling events in homecage recorded videos, and also can generate t
 * 4. tqdm
 * 5. shutil
 ## 2. GUI
-![Gui](/imgs/)
+![Gui](pic/gui.png)
