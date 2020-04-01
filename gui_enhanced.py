@@ -486,11 +486,11 @@ class StartWindow(QMainWindow):
             dict_animal_date = {}
 
 
-            if "sync" not in key or not ("9" in key or"10" in key or "11" in key):
-                continue
+            # if "sync" not in key or not ("9" in key or"10" in key or "11" in key):
+            #     continue
             # if "sync" not in key or not ("9" in key):
             #     continue
-            print(key)
+            # print(key)
             for animal in tqdm(F.get_animals(key)):
                 animal_dir = os.path.join(F.animal_dict[animal], 'Logs')
                 temp_logs_list = os.listdir(animal_dir)
