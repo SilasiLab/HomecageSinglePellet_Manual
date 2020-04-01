@@ -1,6 +1,7 @@
 # HomecageSinglePellet_Manual
 The gui for labeling events in homecage recorded videos, and also can generate the sumarry out of log files.
 ## 1. Dependencies
+* If you already have the environment built for HomeCageSinglePellet_server, then you can reuse that environment and skip the following steps.
 * 1. conda install opencv==3.4.1
 * The libararies you may need to install are listed as (Most of them are preinstalled by anaconda, except opencv):
 * 1. panadas
