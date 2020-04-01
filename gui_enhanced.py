@@ -486,8 +486,8 @@ class StartWindow(QMainWindow):
             dict_animal_date = {}
 
 
-            # if "sync" not in key or not ("10" in key or "11" in key):
-            #     continue
+            if "sync" not in key or not ("9" in key or"10" in key or "11" in key):
+                continue
             # if "sync" not in key or not ("9" in key):
             #     continue
             print(key)
