@@ -463,12 +463,12 @@ class StartWindow(QMainWindow):
         def get_date(data_item):
             date = data_item[8]
             date_list = date.split('-')
-            d = date_list[0]
+            d = int(date_list[0])
             m = date_list[1]
             y = date_list[2]
             if len(y) == 2:
                 y = '20' + y
-            return y + "-" + m + "-" + d
+            return y + "-" + m + "-%02d"%d
 
         def date_string_sort(item):
 
